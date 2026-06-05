@@ -173,6 +173,7 @@ margin:20px 0;
 
 .imag  img{
  border-radius: 50%;
+ background: linear-gradient(135deg, #0056b3, #00abf0);
  box-shadow: 0 0 50px rgba(0, 171, 240, 0.4), 0 0 100px rgba(0, 171, 240, 0.2);
   width: 400px;
   height: 400px;
@@ -741,6 +742,7 @@ body, .home, #about, .education, .projects, .contact, .project-gallery, .pro-box
 
 /* Dynamic Image Glow */
 .imag img {
+  background: linear-gradient(135deg, #0056b3, #00abf0) !important;
   box-shadow: 0 0 30px rgba(56, 189, 248, 0.2), 0 0 60px rgba(56, 189, 248, 0.1) !important;
 }
 
