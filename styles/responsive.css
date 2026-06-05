@@ -1,0 +1,113 @@
+/* Base hide for mobile menu icon on desktop */
+.fa-bars {
+    display: none !important;
+}
+
+/* Tablet & Mobile Layout (max-width: 991px) */
+@media (max-width: 991px) {
+    section {
+        padding: 5rem 5% 2rem !important;
+    }
+    .header {
+        position: relative !important; /* Prevents overlapping content */
+        padding: 2rem 5% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+        background: rgba(4, 11, 20, 1) !important;
+    }
+    .navbar {
+        display: flex !important;
+        position: static !important;
+        flex-direction: row !important;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+        width: 100%;
+        background: transparent !important;
+        box-shadow: none !important;
+        border: none !important;
+    }
+    .navbar a {
+        font-size: 1.5rem !important;
+        margin: 0 !important;
+        padding: 0.5rem 1rem;
+    }
+    
+    .home {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 4rem;
+        padding-top: 5rem !important;
+    }
+    .home-content {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .imag img {
+        width: 300px !important;
+        height: 300px !important;
+        margin: 0 auto !important;
+    }
+    .skill-list {
+        grid-template-columns: repeat(2, 1fr) !important;
+        margin-top: 50px !important;
+        margin-bottom: 50px !important;
+    }
+    .education-row {
+        flex-direction: column;
+    }
+}
+
+/* Mobile Layout (max-width: 768px) */
+@media (max-width: 768px) {
+    html {
+        font-size: 55%;
+    }
+    .home-content h1 {
+        font-size: 40px !important;
+    }
+    .home-content h3 {
+        font-size: 2.5rem !important;
+    }
+    .imag img {
+        width: 250px !important;
+        height: 250px !important;
+        margin-top: 20px !important;
+    }
+    #about h1 {
+        font-size: 60px !important;
+    }
+    #about p {
+        font-size: 1.6rem !important;
+    }
+    .contact form .input-box .input-field {
+        width: 100% !important;
+    }
+    .contact form .input-box {
+        flex-direction: column;
+    }
+}
+
+/* Small Mobile Layout (max-width: 450px) */
+@media (max-width: 450px) {
+    html {
+        font-size: 50%;
+    }
+    .skill-list {
+        grid-template-columns: 1fr !important;
+    }
+    .btn-box {
+        flex-direction: column;
+        height: auto !important;
+        gap: 15px;
+    }
+    .btn-box a {
+        width: 100% !important;
+    }
+}
