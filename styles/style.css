@@ -753,8 +753,24 @@ body, .home, #about, .education, .projects, .contact, .project-gallery, .pro-box
 p, .education-content .content p, .contact form .input-box .input-field input, .contact form .textarea-field textarea {
   color: #94a3b8 !important;
 }
+.bg-image {
+  background-image: url('../images/flo.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  display: block;
+  text-align: center;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
 .bg-image h1 {
   color: transparent !important;
+  font-size: 130px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 10px 0;
 }
 .skill-percentage {
   color: #ffffff !important;
